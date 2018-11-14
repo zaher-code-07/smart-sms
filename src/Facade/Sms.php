@@ -6,7 +6,7 @@
  * Time: 10:00 AM
  */
 
-namespace MoeenBasra\SmartSms\Facade;
+namespace SmartSms\Facade;
 
 
 use Illuminate\Support\Facades\Facade;

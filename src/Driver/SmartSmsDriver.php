@@ -6,12 +6,12 @@
  * Time: 3:11 PM
  */
 
-namespace MoeenBasra\SmartSms\Driver;
+namespace SmartSms\Driver;
 
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
-use MoeenBasra\SmartSms\Exceptions\SmartSmsException;
+use SmartSms\Exceptions\SmartSmsException;
 
 class SmartSmsDriver extends Driver
 {
@@ -39,7 +39,7 @@ class SmartSmsDriver extends Driver
         ]);
         $data = $this->getResponseData($response);
 
-        return (object) $data;
+        return (object)$data;
     }
 
     /**

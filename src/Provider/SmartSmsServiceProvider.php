@@ -6,10 +6,10 @@
  * Time: 12:54 PM
  */
 
-namespace MoeenBasra\SmartSms\Provider;
+namespace SmartSms\Provider;
 
 
-use MoeenBasra\SmartSms\SmartSms;
+use SmartSms\SmartSms;
 use Illuminate\Support\ServiceProvider;
 
 class SmartSmsServiceProvider extends ServiceProvider

@@ -8,11 +8,22 @@
       "email": "m.basra@live.com"
     }
   ],
-  "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "illuminate/support": "~5.3|~5.4|~5.5|~5.6|~5.7"
+  },
   "autoload": {
     "psr-4": {
-      "extensions\\moeen-basra\\smart-sms\\": "src/"
-    }
+      "SmartSms\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true
   }
 }
