@@ -1,0 +1,18 @@
+{
+  "name": "moeen/smart-sms",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Moeen Basra",
+      "email": "m.basra@live.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "extensions\\moeen-basra\\smart-sms\\": "src/"
+    }
+  }
+}
