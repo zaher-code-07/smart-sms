@@ -6,7 +6,7 @@
  * Time: 2:51 PM
  */
 
-namespace SmartSms\Exceptions;
+namespace MoeenBasra\SmartSms\Exceptions;
 
 
 use Throwable;

@@ -6,7 +6,7 @@
  * Time: 11:41 AM
  */
 
-namespace SmartSms\Contracts;
+namespace MoeenBasra\SmartSms\Contracts;
 
 
 interface DriverContract

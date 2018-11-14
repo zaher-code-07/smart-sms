@@ -6,11 +6,11 @@
  * Time: 11:16 AM
  */
 
-namespace SmartSms\Driver;
+namespace MoeenBasra\SmartSms\Driver;
 
 
-use SmartSms\Contracts\DriverContract;
-use SmartSms\Exceptions\SmartSmsException;
+use MoeenBasra\SmartSms\Contracts\DriverContract;
+use MoeenBasra\SmartSms\Exceptions\SmartSmsException;
 
 abstract class Driver implements DriverContract
 {

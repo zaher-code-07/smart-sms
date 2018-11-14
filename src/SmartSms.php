@@ -6,11 +6,11 @@
  * Time: 2:44 PM
  */
 
-namespace SmartSms;
+namespace MoeenBasra\SmartSms;
 
 
-use SmartSms\Contracts\DriverContract;
-use SmartSms\Exceptions\SmartSmsException;
+use MoeenBasra\SmartSms\Contracts\DriverContract;
+use MoeenBasra\SmartSms\Exceptions\SmartSmsException;
 
 class SmartSms
 {

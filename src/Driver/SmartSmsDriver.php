@@ -6,12 +6,12 @@
  * Time: 3:11 PM
  */
 
-namespace SmartSms\Driver;
+namespace MoeenBasra\SmartSms\Driver;
 
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
-use SmartSms\Exceptions\SmartSmsException;
+use MoeenBasra\SmartSms\Exceptions\SmartSmsException;
 
 class SmartSmsDriver extends Driver
 {
